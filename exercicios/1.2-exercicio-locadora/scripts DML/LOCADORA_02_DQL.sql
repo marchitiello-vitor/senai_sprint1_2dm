@@ -1,0 +1,16 @@
+USE LOCADORA_VITOR;
+GO
+
+INSERT INTO EMPRESA(nomeEmpresa)
+VALUES ('CAIOMOTOR'), ('JOSEPMODIFICAÇÕES')
+
+INSERT INTO MARCA(nomeMarca)
+VALUES ('McLaren'), ('GM')
+
+INSERT INTO MODELO(idmarca,nomeModelo)
+VALUES (1,'P1'), (2, 'Camaro')
+
+INSERT INTO VEICULO(idmodelo,anoVeiculo)
+VALUES (1, '2013'), (2, '1966')
+
+INSERT INTO ALUGUEL(idveiculo,
