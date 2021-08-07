@@ -1,0 +1,23 @@
+USE CLINICA_VITOR;
+GO
+
+INSERT INTO CLINICA(nomeClinica)
+VALUES ('PCLINICS'), ('CÃOMIADA')
+
+INSERT INTO VETERINARIO(idclinica,nomeVeterinario)
+VALUES (1,'JOSÉ AZEVEDO'),(2,'FRANKLIN RICHARDS')
+
+INSERT INTO DONO(nomeDono)
+VALUES ('MARCOS'), ('THAMIRES')
+
+INSERT INTO TIPO(tipoAnimal)
+VALUES ('CÃO'), ('GATO')
+
+INSERT INTO RACA(idtipo,raca)
+VALUES (1,'LABRADOR'),(2,'SPHYNX')
+
+INSERT INTO PET(iddono,idraca,nomePet)
+VALUES (1,1,'MARRY'), (2,2,'LUA')
+
+INSERT INTO ATENDIMENTO(idpet,idveterinario,senhaAtendimento)
+VALUES (1,2,'123'),(2,1,'321')

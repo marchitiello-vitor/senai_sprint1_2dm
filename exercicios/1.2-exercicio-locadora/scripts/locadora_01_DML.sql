@@ -13,4 +13,9 @@ VALUES (1,'P1'), (2, 'Camaro')
 INSERT INTO VEICULO(idmodelo,anoVeiculo)
 VALUES (1, '2013'), (2, '1966')
 
-INSERT INTO ALUGUEL(idveiculo,
+INSERT INTO ALUGUEL(idveiculo,quantiaAluguel)
+VALUES (1, 'R$550,00') , (2, '100,00')
+
+INSERT INTO CLIENTES(nomeCliente)
+VALUES ('TONY STARK') , ('FABINHO')
+
